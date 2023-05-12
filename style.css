@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    background-image: url(./background.png);
+    background-size: cover;
+    margin: 0px;
+    height: 60px;
+}
+.header{
+    background-color: rgb(226, 219, 209);
+
+}
+.logo{
+    display: flex;
+    margin-left: 150px;
+
+}
+.menu{
+    color: rgb(63, 51, 46);
+    font-size: 12px;
+    display: flex;
+    gap: 45px;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 450px;
+    text-align: center;
+    justify-self: center;
+    transform: translate(0px, -50px);
+   
+    
+}
+.producao{
+    font-family: 'Varela Round', sans-serif; 
+       
+
+}
+.icon{
+    display: flex;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-content: space-between;
+    row-gap: 80px;
+    margin-left: ;
+}
+.principal_title{
+    color: white;
+    font-family: 'Oleo Script', cursive;
+    font-size: 200px;
+    margin-left: 660px;
+    justify-content: center;
+    transform: translate(0px, 60px);
+}
+.sub_title{
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 45px;
+    margin-left: 770px;
+    transform: translate(0px,30px);
+
+}
+.button{
+    width: 240px;
+    height: px;
+    display: flex;
+    font-size: 26px;
+    background-color: rgba(245, 222, 179, 0.116);
+    color: white;
+    transform: translate(800px, 300px);
+    font-family: 'Varela Round', sans-serif;
+}
